@@ -13,8 +13,8 @@ print(my_dict)
 
 # Pop (remove) an item
 my_dict.pop('age')
-print(my_dict)               
+print(my_dict)         
 
 # Clear all items
 my_dict.clear()
-print(my_dict)              
+print(my_dict)
