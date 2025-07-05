@@ -8,11 +8,11 @@ class Parrot:
         self.age = age
 
         #instance method
-        def sing(self, song):
+    def sing(self, song):
             return "{} sings {}".format(self.name, song)
 
             #method
-            def dance(self):
+    def dance(self):
                 return "{} is dancing".format(self.name)
 
 obj = Parrot("Christof", 7)
