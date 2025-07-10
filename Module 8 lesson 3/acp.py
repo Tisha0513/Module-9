@@ -3,7 +3,7 @@ class Robot:
     def __init__(self, name, model, purpose):
         self.name = name
         self.model = model
-        self.purpose = purpose
+        self.purpose = purpose 
 
     # Method to introduce the robot
     def introduce(self):
@@ -12,7 +12,7 @@ class Robot:
         print(f"My purpose is {self.purpose}.")
 
 # Create robot information
-my_robot = Robot("BoogieBot", "TV-2027", "To help different students about Coding")
+my_robot = Robot("BoogieBot", "TV-2027", "to help different students about Coding")
 
 # Introduce the robot
 my_robot.introduce()
