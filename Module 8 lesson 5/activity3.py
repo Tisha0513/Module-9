@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 class Animal:
 
     def move(self):
-    pass
+        pass
 
 #sub classes
 class Human(Animal):
