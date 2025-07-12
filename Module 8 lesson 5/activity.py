@@ -16,7 +16,7 @@ class Employee(Person):
 
         Person.__init__(self,name,idnumber)
 
-    def display(Employee):
+    def displayforemployee(self):
         print("ID Number:",Employee.idnumber)
         print("Salary:", Employee.salary)
         print("Post:", Employee.post)
