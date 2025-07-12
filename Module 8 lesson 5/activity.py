@@ -14,6 +14,8 @@ class Employee(Person):
         self.salary = salary
         self.post = post
 
+        super().__init__(name, idnumber)
+
         Person.__init__(self,name,idnumber)
 
     def displayforemployee(self):
