@@ -14,12 +14,12 @@ class Employee(Person):
         self.salary = salary
         self.post = post
 
-        Person.__init__(self,idnumber,salary)
+        Person.__init__(self,name,idnumber)
 
-    def display(self):
-        print("ID Number:", self.idnumber)
-        print("Salary:", self.salary)
-        print("Post:", self.post)
+    def display(Employee):
+        print("ID Number:",Employee.idnumber)
+        print("Salary:", Employee.salary)
+        print("Post:", Employee.post)
 
 emp = Employee("Tisha", "EMP1093", 100000, "Manager")
 
