@@ -1,17 +1,13 @@
-class Employee:
-    # Constructor
-    def __init__(self, name, id):
-        self.name = name
-        self.id = id
+class Expression:
 
-    # Destructor
-    def __del__(self):
-        print("Destructor called. Employee deleted.")
+    def __init__(self, num1, num2, num3):
+        self.num1 = num1
+        self.num2 = num2
+        self.num3 = num3
 
-# Object creation
-obj = Employee("Tasmia", "2908")
+    def add_num(self):
+        result = self.num1 + self.num2 + self.num3
+        print(result)
 
-
-print("The employee id of " + obj.name + " is " + obj.id)
-
-del obj
+add = Expression(6, 12, 18)
+add.add_num()
